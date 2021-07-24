@@ -35,7 +35,7 @@ function Movie({ id, year, title, summary, poster, genres }) {
 
 Movie.propTypes = {
     //isRequired : 필수적으로 있어야 함
-    // id: PropTypes.number.isRequired,
+    id: PropTypes.number.isRequired,
     year: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
